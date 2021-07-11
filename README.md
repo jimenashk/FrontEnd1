@@ -3,4 +3,4 @@
 
 lemon pie https://jimenashk.github.io/Front_end_I/index.html
 
-pet shop https://jimenashk.github.io/Front_end_I/pet shop
+pet shop https://jimenashk.github.io/Front_end_I/petshop

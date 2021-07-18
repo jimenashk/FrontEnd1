@@ -1,0 +1,64 @@
+ /* Header */
+ header{
+    background-color: #db7b65;
+    text-align: center;
+
+}
+
+.logo {
+    margin-top: 20px;
+    height: 250px;
+    width: 200px;
+}
+
+nav {
+    text-align: center;
+    font-family: advent pro;
+    color: #255f63;
+}
+
+h1, h2{
+    background-color: #255f63;
+    color: #ecb865;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-family: advent pro;
+} 
+/* Main */
+.container{
+    margin: 40px auto;
+    width: 75%;
+}  
+span{
+    font-weight: 900;
+}
+.personal span{
+    font-style: sans-serif
+    font-color: 
+
+}
+/* Footer */
+footer{
+   background-color: #db7b65;
+   color: #FFF;
+   text-align: center;
+   
+}
+h3{
+    color: #ecb865;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-family: advent pro;
+}
+
+.logogit {
+    margin-right: 10px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+    margin: 0 auto; 
+}
+

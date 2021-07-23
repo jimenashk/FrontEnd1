@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box; 
+    margin: 0%;
+ }
+ body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;;
+ }
+ :root{
+     --primer-color : #222222;
+     --segundo-color: #FC200C;
+     --tercer-color:  #39B24A;
+ }
+ /**-----AQUI COMIENZA EL HEADER ----*/
+ header{
+     background-color: var(--primer-color);
+     height: 100px;
+     display: flex;
+     justify-content: space-between;
+     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.712);
+ }
+ .logo{
+     display: flex;
+     gap: 13px;
+     align-items: center;
+ }
+ .imagen-logo{
+     background-image: url(/img/VectorPizza.svg);
+     height: 90px;
+     background-repeat: no-repeat;
+     width: 90px;
+     margin-left: 25px;
+}
+ 
+h1{
+    font-size: 24px;
+    color: var(--segundo-color);
+}
+span{
+    color: var(--tercer-color);
+}
+.simbolo{
+    color: white;
+}
+.menu{
+display: flex;
+align-items: center;
+margin-right: 25px;
+
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;    
+}
+ul>li{
+    display: inline;
+    margin-right: 13px;
+    padding: 10px;
+}
+
+ /**-----AQUI COMIENZA EL MAIN----*/
+
+ main{
+     margin-top: 50px;
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+ }
+ .comprando{
+     background-image: url('../img/delivery.png');
+     width: 33%;
+     height: 400px;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ h2{
+     margin-top: 20px;
+     margin-left: 20px;
+     font-size: 24px;
+     color: var(--segundo-color);
+ }
+ .texto-comprando{
+     color:white;
+ }
+
+.podio{
+   background-color: white;
+   width: 33%;
+     height: 400px;
+}
+
+.titulo-podio{
+   text-align: center;
+   
+}
+.contenedor{
+   width: 100%;
+   height: 300px;
+   margin-top: 30px;
+   display: flex;
+  
+}
+.lista-podio{
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.lista-podio ol{
+   line-height: 33.5px;
+   font-weight: bold;
+}
+.caja-img{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+img{
+    width: 40%;
+}
+h3{
+    font-size: 20px;
+}
+/**----Aqui comienza el footer ----------------------**/
+footer{
+    background-color: var(--primer-color);
+    height: 160px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul>li{
+   display: block;
+ 
+}
+footer ul{
+   line-height: 15px;
+}
+
+footer .logo{
+   margin-right: 50px;
+}

@@ -13,6 +13,6 @@ CARDS HEROES https://jimenashk.github.io/Front_end_I/CARDS
 
 PIZZA WEB https://jimenashk.github.io/Front_end_I/PIZZA
 
-LOGIN https://jimenashk.github.io/Front_end_I/Registro
+LOGIN https://jimenashk.github.io/Front_end_I/registro
 
 
